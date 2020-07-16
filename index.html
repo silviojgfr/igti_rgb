@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Desafio 1 - RGB</title>
+  </head>
+  <body>
+    <h1>RGB (Red, Green, Blue)</h1>
+    <form>
+      <div>
+        <span id="labels">Red</span>
+        <input type="range" id="rngRed" min="0" max="255" value="0" />
+        <input type="text" id="txtRed" size="5" value="0" disabled />
+      </div>
+      <div>
+        <span id="labels">Green</span>
+        <input type="range" id="rngGreen" min="0" max="255" value="0" />
+        <input type="text" id="txtGreen" size="5" value="0" disabled />
+      </div>
+      <div>
+        <span id="labels">Blue</span>
+        <input type="range" id="rngBlue" min="0" max="255" value="0" />
+        <input type="text" id="txtBlue" size="5" value="0" disabled />
+      </div>
+      <div id="rgbSquare" class="rgbSquare"></div>
+    </form>
+  </body>
+</html>
